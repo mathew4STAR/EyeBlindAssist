@@ -31,8 +31,8 @@ Distance sensor is used to alert the user if he is going to collide onto an obje
 - Buzzer
 
 ##### Software
-- Python 3.6 
-Once python is installed you can run the requirments.txt file to install all files.<br>
+- Python 3.6 <br>
+Once python is installed you can run the setup.sh file to install all files.<br>
 Or you can manually install
 - Tensorflow 
 - Opencv
