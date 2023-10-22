@@ -5,7 +5,7 @@ import sys
 import time
 import os
 import openai
-openai.api_key = "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"
+openai.api_key = ""
 from espeak import espeak
 import openai
 import os
