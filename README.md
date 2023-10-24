@@ -16,7 +16,7 @@ The program was split to 2 modes.
 A) Live mode: A simple sentence is framed manually using the list of objects and rapidly told to the user.
 Just simple concatinates the list of objects to a a prewritten sentence and reads it out. No language model is used.
 
-B) Descriptive mode: A complex sentence is framed which can be easy to understand, and very well written sentence, like a poem.
+B) Descriptive mode: A complex sentence is framed which can be easy to understand, and very well written sentence.
 The data is send to gpt3.5 to create the complex sentence using the list of objects. 
 
 ### Additional features
@@ -36,12 +36,15 @@ Distance sensor is used to alert the user if he is going to collide onto an obje
 - Python(3.9) <br>
 Once python is installed you can run the setup.sh file to install all files.<br>
 `sudo ./setup.sh` <br>
+<br>
+
 Or you can manually install
 - Tensorflow 
 - Opencv
 - OpenAI
 - Espeak
-- You'll also have to install the efficient model
+- and dependencies of these programs
+- You'll also have to install the efficientnet model
 - (this will all be automatically done by the setup.sh file)
 
 ### Running 
@@ -59,7 +62,7 @@ Or you can manually install
 - If you want to individually test systems cd into the tests folder and run the respective tests.
 
 ## v2
-Same as v1 but more polished uses a efficientnet fine tuned object detection model. Large language model is switched to alpace to run it locally on the computer. Ultrasonic is changed to Lidar to create a point cloud and get more data, and various other features.
+Same as v1 but more polished uses a efficientnet fine tuned object detection model. Large language model is switched to llama to run it locally on the computer. Ultrasonic is changed to Lidar to create a point cloud and get more data, and various other features.
 ```
 ----------------v2 has been discontinued, the project might resume later------------------------
 ```
