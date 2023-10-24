@@ -6,6 +6,12 @@ else
   DATA_DIR="$1"
 fi
 
+# Install dependencies
+apt-get install espeak
+apt-get install python3-espeak
+apt-get install alsa-utils
+apt-get install mplayer
+
 # Install Python dependencies
 python3 -m pip install pip --upgrade
 python3 -m pip install -r requirements.txt
