@@ -71,3 +71,6 @@ Same as v1 but more polished uses a efficientnet fine tuned object detection mod
 The project was initially build in a few days for a hackathon.
 Therefore there might be bugs,erros and lack of failsafes.
 The projects code was initally sourced from tensorflow lite's examples. 
+
+### Disclaimer
+The project was made before Chatgpt(and other popular LLMs) became multimodal hence why the current approach.
