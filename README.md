@@ -73,4 +73,4 @@ Therefore there might be bugs,erros and lack of failsafes.
 The projects code was initally sourced from tensorflow lite's examples. 
 
 ### Disclaimer
-The project was made before Chatgpt(and other popular LLMs) became multimodal hence why the current approach.
+The project was made before Chatgpt(and other popular LLMs) became multimodal hence why the current approach. Chatgpt and other systems can now achieve this capability natively, and can describe a photo(persons surrounding's) more accurately than this approach. 
